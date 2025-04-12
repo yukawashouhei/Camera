@@ -1,5 +1,5 @@
 /*
- See the License.txt file for this sample’s licensing information.
+ See the License.txt file for this sample's licensing information.
  */
 
 import SwiftUI
@@ -22,8 +22,8 @@ struct ThumbnailView: View {
 }
 
 struct ThumbnailView_Previews: PreviewProvider {
-    static let previewImage = Image(systemName: "Photo.fill")
+    static let previewImage = Image(systemName: "photo.fill")
     static var previews: some View {
-        ThumbnailView(image: .init(previewImage))
+        ThumbnailView(image: previewImage)
     }
 }
